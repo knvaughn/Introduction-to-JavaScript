@@ -17,7 +17,11 @@ Do the following:
 
    HINT: no function required
 */
-
+let votingAge = 18;
+function canVote(age) {
+  return (age >= 18 ? true : false);
+}
+canVote(votingAge);
 
 
 /*
@@ -30,9 +34,15 @@ Do the following:
 
    HINT: no function required
 */
-
-
-
+let first = 10;
+let second = 20;
+function changeVariable(x, y) {
+  if(x < y) {
+    x = y;
+  }
+  return x;
+}
+changeVariable(first, second);
 
 
 /*
@@ -45,8 +55,11 @@ Do the following:
 
    HINT: look up the Number method
 */
-
-
+let myString = "1999";
+function stringToNum(string) {
+  return parseInt(string);
+}
+stringToNum(myString);
 
 
 /*
@@ -58,10 +71,10 @@ Do the following:
    3. Multiply a and b and return the answer
 */
 
-function multiply(/*add your code here*/){
-    /*add your code here*/
+function multiply(a, b){
+    return a * b;
   }
-
+multiply(2, 4);
 
 
 /*🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 2 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀*/
@@ -74,10 +87,10 @@ Do the following:
    3. Return the newly calculated age
 */
 
-function dogYears(/*add your code here*/){
-    /*add your code here*/
+function dogYears(num){
+    return num * 7;
 }
-
+dogYears(15);
 
 
 /*🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 3 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀*/
